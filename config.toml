@@ -1,0 +1,92 @@
+baseURL = "https://platypusNYC.github.io"
+languageCode = "en"
+DefaultContentLanguage = "en"
+title = "Platypus NYC Events"
+theme = "anatole"
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+buildFuture = true
+
+# Enable Disqus
+#disqusShortname = ""
+
+# Google Analytics
+#googleAnalytics = "UA-123-45"
+
+[params]
+title = "Platypus NYC Events"
+author = "Platypus"
+description = "NYC Reading Group: Sundays 2pm"
+description2 = "NYC Coffee Break: Wednesdays 1pm"
+description3 = "The Platypus Affiliated Society, established in December 2006, organizes reading groups, public fora, research and journalism focused on problems and tasks inherited from the “Old” (1920s-30s), “New” (1960s-70s) and post-political (1980s-90s) Left for the possibilities of emancipatory politics today."
+profilePicture = "images/profile.jpg"
+keywords = ""
+favicon = "favicons/"
+customCss = []
+customJs = []
+mainSections = ["post"]
+images = ["images/site-feature-image.png"]
+
+## Math settings
+[params.math]
+enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex"  # options: "katex", "mathjax". default is "katex".
+
+## Social links
+# [[params.socialIcons]]
+# icon = "fa-linkedin"
+# title = "Linkedin"
+# url = "https://de.linkedin.com/"
+
+[[params.socialIcons]]
+# icon = "fa-github"
+# title = "GitHub"
+# url = "https://github.com/lxndrblz/anatole/"
+
+[[params.socialIcons]]
+icon = "fa-facebook"
+title = "Facebook"
+url = "https://www.facebook.com/PlatypusNYC/"
+
+[[params.socialIcons]]
+icon = "fa-instagram"
+title = "Instagram"
+url = "https://www.instagram.com/columbia.platypus/"
+
+[[params.socialIcons]]
+icon = "fa-envelope"
+title = "e-mail"
+url = "mailto:coordinator@platypus1917.org"
+
+[[params.socialIcons]]
+icon = "fa-home"
+title = "Home"
+url = "https://platypus1917.org/"
+
+[[params.socialIcons]]
+icon = "fa-book"
+title = "Platypus Review"
+url = "https://platypus1917.org/platypus-review/"
+
+## Menu items
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"

@@ -1,1 +1,3 @@
-# PlatypusNYC_Website_Hugo
+## How to add content
+
+Add/edit files in `content/post`
