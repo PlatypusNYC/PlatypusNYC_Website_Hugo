@@ -1,4 +1,4 @@
-baseURL = "https://platypusNYC.github.io"
+baseURL = "https://platypusnyc.github.io/PlatypusNYC_Website_Hugo/"
 languageCode = "en"
 DefaultContentLanguage = "en"
 title = "Platypus NYC Events"
